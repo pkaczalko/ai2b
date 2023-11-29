@@ -1,0 +1,9 @@
+<div>
+<H1>{{randomNumber}}</H1>
+    <span *ngIf="showDes">
+<span style="color:green" *ngIf="ifSmaller(randomNumber)" >dolna połowa wartości </span>
+<span style="color:red" *ngIf="!ifSmaller(randomNumber)" >górna połowa wartości </span>
+        </span>
+<button (click)="random()">Losuj</button>
+    [1,{{max}}]
+</div>

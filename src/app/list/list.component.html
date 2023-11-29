@@ -1,0 +1,6 @@
+<input #input type="text">
+<button (click)="add(input.value)">Dodaj</button>
+
+<div>
+    <li *ngFor="let item of items">{{item}} <button (click)="delete(item)">Usuń</button></li>
+</div>
