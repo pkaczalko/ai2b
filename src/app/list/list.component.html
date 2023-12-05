@@ -1,0 +1,12 @@
+<div *ngFor="let item of items index as i">
+    <li>
+        <a href="/details/{{i}}">
+        <img width="25px" height="25px" src="{{item.image}}">
+            {{item.name}}
+            {{item.surname}}
+            {{i}}
+        </a>
+        <button (click)="delete(i)">Delete</button>
+    </li>
+
+</div>

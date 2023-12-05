@@ -2,3 +2,19 @@
 body {
   background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49285");
 }
+
+footer{
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+header{
+  display: flex;
+  background-color: yellow;
+  top: 0;
+  width: 100%;
+}
