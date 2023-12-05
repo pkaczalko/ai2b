@@ -1,7 +1,6 @@
 import {NgModule} from "@angular/core";
 import {AppComponent} from "./app.component";
 import {BrowserModule} from "@angular/platform-browser";
-import {HomeComponent} from "./home/home.component";
 import {provideRouter, RouterModule} from "@angular/router";
 import routeConfig from "./app.routes";
 
@@ -10,7 +9,6 @@ import routeConfig from "./app.routes";
   ],
   imports: [
     BrowserModule,
-    HomeComponent,
     RouterModule,
   ],
   providers: [provideRouter(routeConfig)],
