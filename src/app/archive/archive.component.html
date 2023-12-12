@@ -1,0 +1,7 @@
+<div class="task-container">
+    <div *ngFor="let task of tasks" class="task">
+        <div class="task-title">{{task.title}}</div>
+        <div class="task-deadline" *ngIf="task.deadline">{{task.deadline}}</div>
+        <button type="submit" (click)="delete(task)">Delete</button>
+    </div>
+</div>

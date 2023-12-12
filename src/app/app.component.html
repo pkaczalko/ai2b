@@ -1,9 +1,13 @@
 <header>
-  <h1>header</h1>
-    <h2 style="padding:10px"><a href="/add"><button>Add</button></a></h2>
+    <h1>Backend-Based Task Manager</h1>
+    <nav>
+        <a routerLink="/tasks" routerLinkActive="active">Tasks</a>
+        <a routerLink="/archive" routerLinkActive="active">Archive</a>
+    </nav>
 </header>
- <router-outlet></router-outlet>
 
- <footer>
-     <h1> footer</h1>
- </footer>
+<div class="body">
+    <router-outlet></router-outlet>
+</div>
+
+<footer>Piotr Kaczałko</footer>
