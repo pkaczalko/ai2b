@@ -1,0 +1,11 @@
+<div>
+    <h2>Users</h2>
+    <ul class="users">
+        <li *ngFor="let user of users" class="user">
+            {{ user.username }}
+            <span *ngFor="let role of user.roles">
+                <b>{{ role }} </b>
+            </span>
+        </li>
+    </ul>
+</div>
